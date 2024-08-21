@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* box-model*/
+}
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ebf2ff;
+}
+
+.card-img-top {
+  padding: 15px;
+  height: 300px;
+  width: auto;
+}
+
+.place_holder_image {
+  width: 100%;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: relative;
+  width: 100%;
+}
+.card-container {
+  /* Clearfix to contain floated elements */
+  overflow: hidden;
+}
+
+.card {
+  /* Set width and style for each card */
+  width: 200px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  float: left; /* or display: inline-block; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  /* Add a hover effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
